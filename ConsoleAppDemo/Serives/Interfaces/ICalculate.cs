@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleAppDemo.Serives.Interfaces
+﻿namespace ConsoleAppDemo.Serives.Interfaces
 {
     public interface ICalculate
     {
+        double Dodawanie(double number21, double number2);
     }
 }
