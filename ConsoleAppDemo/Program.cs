@@ -15,6 +15,9 @@ namespace ConsoleAppDemo
             double result2 = calculate.Odejmowanie(10, 3);
             Console.WriteLine($"Rezultat odejmow3anie: {result2}");
 
+            double result3 = calculate.Mnozenie(3, 2);
+            Console.WriteLine($"Rezultat mnozenie: {result3}");
+
             Console.ReadKey();
         }
     }
