@@ -2,6 +2,6 @@
 {
     public interface ICalculate
     {
-        double Dodawanie(double number21, double number2);
+        double Dodawanie(double number1, double number2);
     }
 }
