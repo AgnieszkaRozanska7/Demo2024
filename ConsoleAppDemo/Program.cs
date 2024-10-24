@@ -12,6 +12,9 @@ namespace ConsoleAppDemo
             double result1 = calculate.Dodawanie(1, 3);
             Console.WriteLine($"Rezultat dodawania: {result1}");
 
+            double result3 = calculate.Mnozenie(3, 2);
+            Console.WriteLine($"Rezultat mnozenie: {result3}");
+
             Console.ReadKey();
         }
     }
